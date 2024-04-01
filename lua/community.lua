@@ -7,18 +7,18 @@ return {
   "AstroNvim/astrocommunity",
   -- code runner
   -- Overseer task runner & job management
-  -- { import = "astrocommunity.code-runner.overseer-nvim" },
+  { import = "astrocommunity.code-runner.overseer-nvim" },
   -- switch between projects
-  -- { import = "astrocommunity.project.project-nvim" },
+  { import = "astrocommunity.project.project-nvim" },
   
   -- todo comments
-  -- { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  -- {
-  --   "folke/todo-comments.nvim",
-  --   opts = {
-  --     sign_priority = 5, -- higher sign display priority
-  --   },
-  -- },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  {
+    "folke/todo-comments.nvim",
+    opts = {
+      sign_priority = 5, -- higher sign display priority
+    },
+  },
 
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
@@ -32,13 +32,13 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.go" },
-  -- { import = "astrocommunity.pack.cmake" },
-  -- { import = "astrocommunity.pack.docker" },
-  -- { import = "astrocommunity.pack.angular" },
-  -- { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.angular" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.kotlin" },
   -- { import = "astrocommunity.pack.php" },
   -- { import = "astrocommunity.pack.proto" },
   -- { import = "astrocommunity.pack.java" },
-  -- { import = "astrocommunity.pack.kotlin" },
   -- { import = "astrocommunity.pack.ps1" },
 }
