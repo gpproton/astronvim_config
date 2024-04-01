@@ -26,6 +26,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.angular" },
+  { import = "astrocommunity.pack.tailwindcss" },
 
   -- scripting & sys dependencies
   { import = "astrocommunity.pack.bash" },
@@ -43,7 +44,9 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.php" },
+  { import = "astrocommunity.pack.blade" },
   
   -- random and config files
   { import = "astrocommunity.pack.markdown" },
