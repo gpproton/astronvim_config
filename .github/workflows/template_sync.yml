@@ -4,10 +4,18 @@ on:
   push:
     branches:
       - main
+  # cronjob trigger
+  schedule:
+    - cron:  "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - name: Template Sync
