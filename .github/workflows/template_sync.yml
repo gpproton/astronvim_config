@@ -13,6 +13,6 @@ jobs:
       - name: Template Sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
-          source_repo_path: "https://github.com/AstroNvim/template.git"
+          source_repo_path: "AstroNvim/template"
           upstream_branch: "main"
           github_token: ${{ secrets.GITHUB_TOKEN }}
