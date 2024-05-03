@@ -23,4 +23,6 @@ jobs:
         with:
           source_repo_path: "AstroNvim/template"
           upstream_branch: "main"
+          git_user_name: gpproton
+          git_user_email: me@godwin.dev
           github_token: ${{ secrets.GITHUB_TOKEN }}
