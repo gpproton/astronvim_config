@@ -25,6 +25,9 @@ You can also just clone this repository directly if you do not want to track you
 
 ```shell
 git clone git@github.com:gpproton/astronvim_config ~/.config/nvim
+
+## On Windows
+git clone --depth 1 git@github.com:gpproton/astronvim_config $env:LOCALAPPDATA\nvim
 ```
 
 #### Start Neovim
